@@ -1,0 +1,47 @@
+# Ambiente virtual
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Dados sensíveis
+.env
+.env.local
+
+# Notebooks temporários
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+# Airflow
+airflow/logs/
+airflow/dags/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
